@@ -1,6 +1,23 @@
 SVGQuartzRenderer
 =================
 
+ADAM: I highly recommend to NOT use this library, and use SVGKit instead.
+
+I got part-way through cleaning-up the SVGQuartzRenderer project and source (there are major bugs in the source-code,
+e.g. calls to non-existent methods), and then I discovered SVGKit, which is properly organized, and compiled first
+time with zero errors.
+
+This fork may still be useful for anyone wanting to use SVGQuartzRenderer, but it appears to be a dead project compared
+to SVGKit. If you use this fork, start by getting the SVGQuartzRendererShared project to build. It's set to produce a
+Mac OS X framework that you can then drag/drop into the SVGQuartzRendererOSX project (which is next for you to fix).
+
+Finally, add an "iOS library target" to SVGQuartzRendererShared, so that it is building a lib you can drag/drop into
+SVGQuartzRendererIOS. Since Xcode doesn't allow iOS to use frameworks (thanks for nothing, Apple), you'll have to
+manually copy header files, or else do a direct xcodeproj-embedded-in-xcodeproj (which is probably simpler / better
+for this project)
+
+-- Adam
+
 About SVGQuartzRenderer
 -----------------------
 
