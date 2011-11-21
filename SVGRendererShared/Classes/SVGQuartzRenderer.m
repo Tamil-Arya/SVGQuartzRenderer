@@ -28,7 +28,7 @@
 #import "float.h"
 #import "QuadTreeNode.h"
 #import "PathFrag.h"
-#import "CGPathReader.h"
+//#import "CGPathReader.h"
 #import "TextFrag.h"
 
 // Function prototypes for SAX callbacks. This sample implements a minimal subset of SAX callbacks.

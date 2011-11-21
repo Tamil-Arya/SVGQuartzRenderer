@@ -36,7 +36,13 @@ NSString *svgFile;
     if (self) {
         svgRenderer = [[SVGQuartzRenderer alloc] init];
 		[svgRenderer setDelegate:self];
-		[svgRenderer setScale:1.0];
+		/**
+		 TODO: this would NEVER work but was in original project,
+		 so we make an educated guess about what the author was trying to do:
+		 [svgRenderer setScale:1.0];
+		 */
+		[svgRenderer setGlobalScaleX:1.0];
+		[svgRenderer setGlobalScaleY:1.0];
     }
     return self;
 }
@@ -108,7 +114,12 @@ NSString *svgFile;
 	else 
 		[scaleTF setFloatValue:[sender floatValue]];
 	
-	[svgRenderer setScale:[sender floatValue]];
+	/**
+	 TODO: this would NEVER work, so we make an educated guess about what was intended
+	 [svgRenderer setScale:[sender floatValue]];
+	 */
+	[svgRenderer setGlobalScaleX:[sender floatValue]];
+	[svgRenderer setGlobalScaleY:[sender floatValue]];
 	[svgRenderer drawSVGFile:svgFile];
 }
 

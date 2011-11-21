@@ -13,34 +13,57 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		667EB120147AADDC00CFD15F /* drawing.svg in Resources */ = {isa = PBXBuildFile; fileRef = 667EB11A147AADDC00CFD15F /* drawing.svg */; };
+		667EB121147AADDC00CFD15F /* map0.svg in Resources */ = {isa = PBXBuildFile; fileRef = 667EB11B147AADDC00CFD15F /* map0.svg */; };
+		667EB122147AADDC00CFD15F /* map1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 667EB11C147AADDC00CFD15F /* map1.svg */; };
+		667EB123147AADDC00CFD15F /* skull.svg in Resources */ = {isa = PBXBuildFile; fileRef = 667EB11D147AADDC00CFD15F /* skull.svg */; };
+		667EB124147AADDC00CFD15F /* text.svg in Resources */ = {isa = PBXBuildFile; fileRef = 667EB11E147AADDC00CFD15F /* text.svg */; };
+		667EB125147AADDC00CFD15F /* tiger.svg in Resources */ = {isa = PBXBuildFile; fileRef = 667EB11F147AADDC00CFD15F /* tiger.svg */; };
+		667EB163147AADF400CFD15F /* config in Resources */ = {isa = PBXBuildFile; fileRef = 667EB12A147AADF400CFD15F /* config */; };
+		667EB164147AADF400CFD15F /* description in Resources */ = {isa = PBXBuildFile; fileRef = 667EB12B147AADF400CFD15F /* description */; };
+		667EB165147AADF400CFD15F /* FETCH_HEAD in Resources */ = {isa = PBXBuildFile; fileRef = 667EB12C147AADF400CFD15F /* FETCH_HEAD */; };
+		667EB166147AADF400CFD15F /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = 667EB12D147AADF400CFD15F /* HEAD */; };
+		667EB167147AADF400CFD15F /* applypatch-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = 667EB12F147AADF400CFD15F /* applypatch-msg.sample */; };
+		667EB168147AADF400CFD15F /* commit-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = 667EB130147AADF400CFD15F /* commit-msg.sample */; };
+		667EB169147AADF400CFD15F /* post-commit.sample in Resources */ = {isa = PBXBuildFile; fileRef = 667EB131147AADF400CFD15F /* post-commit.sample */; };
+		667EB16A147AADF400CFD15F /* post-receive.sample in Resources */ = {isa = PBXBuildFile; fileRef = 667EB132147AADF400CFD15F /* post-receive.sample */; };
+		667EB16B147AADF400CFD15F /* post-update.sample in Resources */ = {isa = PBXBuildFile; fileRef = 667EB133147AADF400CFD15F /* post-update.sample */; };
+		667EB16C147AADF400CFD15F /* pre-applypatch.sample in Resources */ = {isa = PBXBuildFile; fileRef = 667EB134147AADF400CFD15F /* pre-applypatch.sample */; };
+		667EB16D147AADF400CFD15F /* pre-commit.sample in Resources */ = {isa = PBXBuildFile; fileRef = 667EB135147AADF400CFD15F /* pre-commit.sample */; };
+		667EB16E147AADF400CFD15F /* pre-rebase.sample in Resources */ = {isa = PBXBuildFile; fileRef = 667EB136147AADF400CFD15F /* pre-rebase.sample */; };
+		667EB16F147AADF400CFD15F /* prepare-commit-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = 667EB137147AADF400CFD15F /* prepare-commit-msg.sample */; };
+		667EB170147AADF400CFD15F /* update.sample in Resources */ = {isa = PBXBuildFile; fileRef = 667EB138147AADF400CFD15F /* update.sample */; };
+		667EB171147AADF400CFD15F /* index in Resources */ = {isa = PBXBuildFile; fileRef = 667EB139147AADF400CFD15F /* index */; };
+		667EB172147AADF400CFD15F /* exclude in Resources */ = {isa = PBXBuildFile; fileRef = 667EB13B147AADF400CFD15F /* exclude */; };
+		667EB173147AADF400CFD15F /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = 667EB13D147AADF400CFD15F /* HEAD */; };
+		667EB174147AADF400CFD15F /* master in Resources */ = {isa = PBXBuildFile; fileRef = 667EB140147AADF400CFD15F /* master */; };
+		667EB175147AADF400CFD15F /* pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.idx in Resources */ = {isa = PBXBuildFile; fileRef = 667EB144147AADF400CFD15F /* pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.idx */; };
+		667EB176147AADF400CFD15F /* pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.pack in Resources */ = {isa = PBXBuildFile; fileRef = 667EB145147AADF400CFD15F /* pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.pack */; };
+		667EB177147AADF400CFD15F /* packed-refs in Resources */ = {isa = PBXBuildFile; fileRef = 667EB146147AADF400CFD15F /* packed-refs */; };
+		667EB178147AADF400CFD15F /* master in Resources */ = {isa = PBXBuildFile; fileRef = 667EB149147AADF400CFD15F /* master */; };
+		667EB179147AADF400CFD15F /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = 667EB14C147AADF400CFD15F /* HEAD */; };
+		667EB17A147AADF400CFD15F /* CGPathReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 667EB14F147AADF400CFD15F /* CGPathReader.m */; };
+		667EB17B147AADF400CFD15F /* CGPathWriter.c in Sources */ = {isa = PBXBuildFile; fileRef = 667EB150147AADF400CFD15F /* CGPathWriter.c */; };
+		667EB17C147AADF400CFD15F /* CGPathWriterTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 667EB152147AADF400CFD15F /* CGPathWriterTC.m */; };
+		667EB17D147AADF400CFD15F /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 667EB153147AADF400CFD15F /* Makefile */; };
+		667EB17E147AADF400CFD15F /* MROCGPointMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 667EB154147AADF400CFD15F /* MROCGPointMath.c */; };
+		667EB17F147AADF400CFD15F /* NSCoder_MROCGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 667EB157147AADF400CFD15F /* NSCoder_MROCGPath.m */; };
+		667EB180147AADF400CFD15F /* PathBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 667EB159147AADF400CFD15F /* PathBuilder.m */; };
+		667EB181147AADF400CFD15F /* PathParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 667EB15B147AADF400CFD15F /* PathParser.m */; };
+		667EB182147AADF400CFD15F /* PathParser.rl in Resources */ = {isa = PBXBuildFile; fileRef = 667EB15C147AADF400CFD15F /* PathParser.rl */; };
+		667EB183147AADF400CFD15F /* RagelParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 667EB15E147AADF400CFD15F /* RagelParser.m */; };
+		667EB184147AADF400CFD15F /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 667EB15F147AADF400CFD15F /* README.markdown */; };
+		667EB185147AADF400CFD15F /* TrafoParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 667EB161147AADF400CFD15F /* TrafoParser.m */; };
+		667EB186147AADF400CFD15F /* TrafoParser.rl in Resources */ = {isa = PBXBuildFile; fileRef = 667EB162147AADF400CFD15F /* TrafoParser.rl */; };
 		F102169A137DDCDD008D1E1F /* TextFrag.m in Sources */ = {isa = PBXBuildFile; fileRef = F1021699137DDCDD008D1E1F /* TextFrag.m */; };
 		F102760A13452147004F7796 /* QuadTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F102760913452147004F7796 /* QuadTreeNode.m */; };
 		F102760D13452161004F7796 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = F102760C13452161004F7796 /* Sprite.m */; };
-		F102788C13F5D1C400D8C56B /* map1.svg in Resources */ = {isa = PBXBuildFile; fileRef = F102788A13F5D1C400D8C56B /* map1.svg */; };
-		F102788D13F5D1C400D8C56B /* map0.svg in Resources */ = {isa = PBXBuildFile; fileRef = F102788B13F5D1C400D8C56B /* map0.svg */; };
 		F10A772A133B7C2500C8F3D4 /* SVGStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F10A7729133B7C2500C8F3D4 /* SVGStyle.m */; };
-		F10D76D8126D51CC00D5CA7A /* text.svg in Resources */ = {isa = PBXBuildFile; fileRef = F10D76D7126D51CC00D5CA7A /* text.svg */; };
-		F10D76DA126D51D700D5CA7A /* skull.svg in Resources */ = {isa = PBXBuildFile; fileRef = F10D76D9126D51D700D5CA7A /* skull.svg */; };
 		F118E2541363B95B00AC0C3B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F118E2531363B95B00AC0C3B /* libxml2.dylib */; };
 		F12576A3135DC4DB00D6249F /* GraphicFrag.m in Sources */ = {isa = PBXBuildFile; fileRef = F12576A2135DC4DB00D6249F /* GraphicFrag.m */; };
 		F12576A6135DC5FB00D6249F /* PathFrag.m in Sources */ = {isa = PBXBuildFile; fileRef = F12576A5135DC5FB00D6249F /* PathFrag.m */; };
 		F130C03D13F95A08008815EB /* maps.plist in Resources */ = {isa = PBXBuildFile; fileRef = F130C03C13F95A08008815EB /* maps.plist */; };
-		F13AA00E1366516000CDA583 /* CGPathReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F13A9FFD1366516000CDA583 /* CGPathReader.m */; };
-		F13AA00F1366516000CDA583 /* CGPathWriter.c in Sources */ = {isa = PBXBuildFile; fileRef = F13A9FFE1366516000CDA583 /* CGPathWriter.c */; };
-		F13AA0101366516000CDA583 /* MROCGPointMath.c in Sources */ = {isa = PBXBuildFile; fileRef = F13AA0001366516000CDA583 /* MROCGPointMath.c */; };
-		F13AA0111366516000CDA583 /* NSCoder_MROCGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AA0031366516000CDA583 /* NSCoder_MROCGPath.m */; };
-		F13AA0121366516000CDA583 /* PathBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AA0051366516000CDA583 /* PathBuilder.m */; };
-		F13AA0131366516000CDA583 /* PathParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AA0071366516000CDA583 /* PathParser.m */; };
-		F13AA0141366516000CDA583 /* PathParser.rl in Resources */ = {isa = PBXBuildFile; fileRef = F13AA0081366516000CDA583 /* PathParser.rl */; };
-		F13AA0151366516000CDA583 /* RagelParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AA00A1366516000CDA583 /* RagelParser.m */; };
-		F13AA0161366516000CDA583 /* TrafoParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AA00C1366516000CDA583 /* TrafoParser.m */; };
-		F13AA0171366516000CDA583 /* TrafoParser.rl in Resources */ = {isa = PBXBuildFile; fileRef = F13AA00D1366516000CDA583 /* TrafoParser.rl */; };
 		F1625B061288DC10003129E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1625B051288DC10003129E2 /* QuartzCore.framework */; };
-		F1E1603E132B0AA800836330 /* drawing.svg in Resources */ = {isa = PBXBuildFile; fileRef = F1E1603D132B0AA800836330 /* drawing.svg */; };
-		F1FE97681269523100F6D66F /* SVGRenderViewTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FE97671269523100F6D66F /* SVGRenderViewTouch.m */; };
-		F1FE976D1269524F00F6D66F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FE976A1269524F00F6D66F /* NSData+Base64.m */; };
-		F1FE976E1269524F00F6D66F /* SVGQuartzRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FE976C1269524F00F6D66F /* SVGQuartzRenderer.m */; };
-		F1FE97721269533000F6D66F /* tiger.svg in Resources */ = {isa = PBXBuildFile; fileRef = F1FE97711269533000F6D66F /* tiger.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +76,56 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SVGRendererTouch_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGRendererTouch_Prefix.pch; sourceTree = "<group>"; };
+		667EB11A147AADDC00CFD15F /* drawing.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = drawing.svg; sourceTree = "<group>"; };
+		667EB11B147AADDC00CFD15F /* map0.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map0.svg; sourceTree = "<group>"; };
+		667EB11C147AADDC00CFD15F /* map1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map1.svg; sourceTree = "<group>"; };
+		667EB11D147AADDC00CFD15F /* skull.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = skull.svg; sourceTree = "<group>"; };
+		667EB11E147AADDC00CFD15F /* text.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = text.svg; sourceTree = "<group>"; };
+		667EB11F147AADDC00CFD15F /* tiger.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tiger.svg; sourceTree = "<group>"; };
+		667EB12A147AADF400CFD15F /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = "<group>"; };
+		667EB12B147AADF400CFD15F /* description */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description; sourceTree = "<group>"; };
+		667EB12C147AADF400CFD15F /* FETCH_HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FETCH_HEAD; sourceTree = "<group>"; };
+		667EB12D147AADF400CFD15F /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		667EB12F147AADF400CFD15F /* applypatch-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "applypatch-msg.sample"; sourceTree = "<group>"; };
+		667EB130147AADF400CFD15F /* commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "commit-msg.sample"; sourceTree = "<group>"; };
+		667EB131147AADF400CFD15F /* post-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-commit.sample"; sourceTree = "<group>"; };
+		667EB132147AADF400CFD15F /* post-receive.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-receive.sample"; sourceTree = "<group>"; };
+		667EB133147AADF400CFD15F /* post-update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-update.sample"; sourceTree = "<group>"; };
+		667EB134147AADF400CFD15F /* pre-applypatch.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-applypatch.sample"; sourceTree = "<group>"; };
+		667EB135147AADF400CFD15F /* pre-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-commit.sample"; sourceTree = "<group>"; };
+		667EB136147AADF400CFD15F /* pre-rebase.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-rebase.sample"; sourceTree = "<group>"; };
+		667EB137147AADF400CFD15F /* prepare-commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "prepare-commit-msg.sample"; sourceTree = "<group>"; };
+		667EB138147AADF400CFD15F /* update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update.sample; sourceTree = "<group>"; };
+		667EB139147AADF400CFD15F /* index */ = {isa = PBXFileReference; lastKnownFileType = file; path = index; sourceTree = "<group>"; };
+		667EB13B147AADF400CFD15F /* exclude */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exclude; sourceTree = "<group>"; };
+		667EB13D147AADF400CFD15F /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		667EB140147AADF400CFD15F /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		667EB144147AADF400CFD15F /* pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.idx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.idx"; sourceTree = "<group>"; };
+		667EB145147AADF400CFD15F /* pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.pack */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.pack"; sourceTree = "<group>"; };
+		667EB146147AADF400CFD15F /* packed-refs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "packed-refs"; sourceTree = "<group>"; };
+		667EB149147AADF400CFD15F /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		667EB14C147AADF400CFD15F /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		667EB14E147AADF400CFD15F /* CGPathReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPathReader.h; sourceTree = "<group>"; };
+		667EB14F147AADF400CFD15F /* CGPathReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPathReader.m; sourceTree = "<group>"; };
+		667EB150147AADF400CFD15F /* CGPathWriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGPathWriter.c; sourceTree = "<group>"; };
+		667EB151147AADF400CFD15F /* CGPathWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPathWriter.h; sourceTree = "<group>"; };
+		667EB152147AADF400CFD15F /* CGPathWriterTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPathWriterTC.m; sourceTree = "<group>"; };
+		667EB153147AADF400CFD15F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		667EB154147AADF400CFD15F /* MROCGPointMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MROCGPointMath.c; sourceTree = "<group>"; };
+		667EB155147AADF400CFD15F /* MROCGPointMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MROCGPointMath.h; sourceTree = "<group>"; };
+		667EB156147AADF400CFD15F /* NSCoder_MROCGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCoder_MROCGPath.h; sourceTree = "<group>"; };
+		667EB157147AADF400CFD15F /* NSCoder_MROCGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCoder_MROCGPath.m; sourceTree = "<group>"; };
+		667EB158147AADF400CFD15F /* PathBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathBuilder.h; sourceTree = "<group>"; };
+		667EB159147AADF400CFD15F /* PathBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathBuilder.m; sourceTree = "<group>"; };
+		667EB15A147AADF400CFD15F /* PathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathParser.h; sourceTree = "<group>"; };
+		667EB15B147AADF400CFD15F /* PathParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathParser.m; sourceTree = "<group>"; };
+		667EB15C147AADF400CFD15F /* PathParser.rl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PathParser.rl; sourceTree = "<group>"; };
+		667EB15D147AADF400CFD15F /* RagelParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RagelParser.h; sourceTree = "<group>"; };
+		667EB15E147AADF400CFD15F /* RagelParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RagelParser.m; sourceTree = "<group>"; };
+		667EB15F147AADF400CFD15F /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		667EB160147AADF400CFD15F /* TrafoParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafoParser.h; sourceTree = "<group>"; };
+		667EB161147AADF400CFD15F /* TrafoParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafoParser.m; sourceTree = "<group>"; };
+		667EB162147AADF400CFD15F /* TrafoParser.rl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TrafoParser.rl; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SVGRendererTouch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SVGRendererTouch-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		F1021698137DDCDD008D1E1F /* TextFrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFrag.h; sourceTree = "<group>"; };
 		F1021699137DDCDD008D1E1F /* TextFrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFrag.m; sourceTree = "<group>"; };
@@ -60,47 +133,17 @@
 		F102760913452147004F7796 /* QuadTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadTreeNode.m; sourceTree = "<group>"; };
 		F102760B13452161004F7796 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
 		F102760C13452161004F7796 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
-		F102788A13F5D1C400D8C56B /* map1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map1.svg; sourceTree = "<group>"; };
-		F102788B13F5D1C400D8C56B /* map0.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map0.svg; sourceTree = "<group>"; };
 		F1060337135FBE3D00840593 /* IDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDrawable.h; sourceTree = "<group>"; };
 		F10A7728133B7C2500C8F3D4 /* SVGStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGStyle.h; sourceTree = "<group>"; };
 		F10A7729133B7C2500C8F3D4 /* SVGStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGStyle.m; sourceTree = "<group>"; };
-		F10D76D7126D51CC00D5CA7A /* text.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = text.svg; path = ../Resources/text.svg; sourceTree = SOURCE_ROOT; };
-		F10D76D9126D51D700D5CA7A /* skull.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = skull.svg; path = ../Resources/skull.svg; sourceTree = SOURCE_ROOT; };
 		F118E2531363B95B00AC0C3B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = ../../../../../usr/lib/libxml2.dylib; sourceTree = "<group>"; };
 		F12576A1135DC4DB00D6249F /* GraphicFrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicFrag.h; sourceTree = "<group>"; };
 		F12576A2135DC4DB00D6249F /* GraphicFrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicFrag.m; sourceTree = "<group>"; };
 		F12576A4135DC5FA00D6249F /* PathFrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathFrag.h; sourceTree = "<group>"; };
 		F12576A5135DC5FB00D6249F /* PathFrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathFrag.m; sourceTree = "<group>"; };
 		F130C03C13F95A08008815EB /* maps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = maps.plist; sourceTree = "<group>"; };
-		F13A9FFC1366516000CDA583 /* CGPathReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGPathReader.h; path = ../../lib/MROGeometry/CGPathReader.h; sourceTree = "<group>"; };
-		F13A9FFD1366516000CDA583 /* CGPathReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGPathReader.m; path = ../../lib/MROGeometry/CGPathReader.m; sourceTree = "<group>"; };
-		F13A9FFE1366516000CDA583 /* CGPathWriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CGPathWriter.c; path = ../../lib/MROGeometry/CGPathWriter.c; sourceTree = "<group>"; };
-		F13A9FFF1366516000CDA583 /* CGPathWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGPathWriter.h; path = ../../lib/MROGeometry/CGPathWriter.h; sourceTree = "<group>"; };
-		F13AA0001366516000CDA583 /* MROCGPointMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MROCGPointMath.c; path = ../../lib/MROGeometry/MROCGPointMath.c; sourceTree = "<group>"; };
-		F13AA0011366516000CDA583 /* MROCGPointMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MROCGPointMath.h; path = ../../lib/MROGeometry/MROCGPointMath.h; sourceTree = "<group>"; };
-		F13AA0021366516000CDA583 /* NSCoder_MROCGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSCoder_MROCGPath.h; path = ../../lib/MROGeometry/NSCoder_MROCGPath.h; sourceTree = "<group>"; };
-		F13AA0031366516000CDA583 /* NSCoder_MROCGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSCoder_MROCGPath.m; path = ../../lib/MROGeometry/NSCoder_MROCGPath.m; sourceTree = "<group>"; };
-		F13AA0041366516000CDA583 /* PathBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PathBuilder.h; path = ../../lib/MROGeometry/PathBuilder.h; sourceTree = "<group>"; };
-		F13AA0051366516000CDA583 /* PathBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PathBuilder.m; path = ../../lib/MROGeometry/PathBuilder.m; sourceTree = "<group>"; };
-		F13AA0061366516000CDA583 /* PathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PathParser.h; path = ../../lib/MROGeometry/PathParser.h; sourceTree = "<group>"; };
-		F13AA0071366516000CDA583 /* PathParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PathParser.m; path = ../../lib/MROGeometry/PathParser.m; sourceTree = "<group>"; };
-		F13AA0081366516000CDA583 /* PathParser.rl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PathParser.rl; path = ../../lib/MROGeometry/PathParser.rl; sourceTree = "<group>"; };
-		F13AA0091366516000CDA583 /* RagelParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RagelParser.h; path = ../../lib/MROGeometry/RagelParser.h; sourceTree = "<group>"; };
-		F13AA00A1366516000CDA583 /* RagelParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RagelParser.m; path = ../../lib/MROGeometry/RagelParser.m; sourceTree = "<group>"; };
-		F13AA00B1366516000CDA583 /* TrafoParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrafoParser.h; path = ../../lib/MROGeometry/TrafoParser.h; sourceTree = "<group>"; };
-		F13AA00C1366516000CDA583 /* TrafoParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrafoParser.m; path = ../../lib/MROGeometry/TrafoParser.m; sourceTree = "<group>"; };
-		F13AA00D1366516000CDA583 /* TrafoParser.rl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TrafoParser.rl; path = ../../lib/MROGeometry/TrafoParser.rl; sourceTree = "<group>"; };
 		F1625B051288DC10003129E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		F1E1603D132B0AA800836330 /* drawing.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = drawing.svg; path = ../Resources/drawing.svg; sourceTree = SOURCE_ROOT; };
 		F1FAC4A21360CA3000569E4C /* ITransProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITransProvider.h; sourceTree = "<group>"; };
-		F1FE97661269523100F6D66F /* SVGRenderViewTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGRenderViewTouch.h; sourceTree = SOURCE_ROOT; };
-		F1FE97671269523100F6D66F /* SVGRenderViewTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGRenderViewTouch.m; sourceTree = SOURCE_ROOT; };
-		F1FE97691269524F00F6D66F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "../NSData+Base64.h"; sourceTree = SOURCE_ROOT; };
-		F1FE976A1269524F00F6D66F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "../NSData+Base64.m"; sourceTree = SOURCE_ROOT; };
-		F1FE976B1269524F00F6D66F /* SVGQuartzRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGQuartzRenderer.h; path = ../SVGQuartzRenderer.h; sourceTree = SOURCE_ROOT; };
-		F1FE976C1269524F00F6D66F /* SVGQuartzRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGQuartzRenderer.m; path = ../SVGQuartzRenderer.m; sourceTree = SOURCE_ROOT; };
-		F1FE97711269533000F6D66F /* tiger.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tiger.svg; path = ../Resources/tiger.svg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,13 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				F1021697137DDCA4008D1E1F /* GraphicFragments */,
-				F1297E4913652C0E00DB3E1C /* MROGeometry */,
-				F1FE97691269524F00F6D66F /* NSData+Base64.h */,
-				F1FE976A1269524F00F6D66F /* NSData+Base64.m */,
-				F1FE976B1269524F00F6D66F /* SVGQuartzRenderer.h */,
-				F1FE976C1269524F00F6D66F /* SVGQuartzRenderer.m */,
-				F1FE97661269523100F6D66F /* SVGRenderViewTouch.h */,
-				F1FE97671269523100F6D66F /* SVGRenderViewTouch.m */,
 				1D3623240D0F684500981E51 /* SVGRendererTouchAppDelegate.h */,
 				1D3623250D0F684500981E51 /* SVGRendererTouchAppDelegate.m */,
 				F10A7728133B7C2500C8F3D4 /* SVGStyle.h */,
@@ -157,6 +193,7 @@
 			children = (
 				F130C03C13F95A08008815EB /* maps.plist */,
 				F118E2531363B95B00AC0C3B /* libxml2.dylib */,
+				667EB126147AADF400CFD15F /* lib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -178,12 +215,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F102788A13F5D1C400D8C56B /* map1.svg */,
-				F102788B13F5D1C400D8C56B /* map0.svg */,
-				F1E1603D132B0AA800836330 /* drawing.svg */,
-				F10D76D9126D51D700D5CA7A /* skull.svg */,
-				F10D76D7126D51CC00D5CA7A /* text.svg */,
-				F1FE97711269533000F6D66F /* tiger.svg */,
+				667EB119147AADDC00CFD15F /* SVGExampleFiles */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* SVGRendererTouch-Info.plist */,
 			);
@@ -201,6 +233,199 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		667EB119147AADDC00CFD15F /* SVGExampleFiles */ = {
+			isa = PBXGroup;
+			children = (
+				667EB11A147AADDC00CFD15F /* drawing.svg */,
+				667EB11B147AADDC00CFD15F /* map0.svg */,
+				667EB11C147AADDC00CFD15F /* map1.svg */,
+				667EB11D147AADDC00CFD15F /* skull.svg */,
+				667EB11E147AADDC00CFD15F /* text.svg */,
+				667EB11F147AADDC00CFD15F /* tiger.svg */,
+			);
+			name = SVGExampleFiles;
+			path = ../SVGExampleFiles;
+			sourceTree = "<group>";
+		};
+		667EB126147AADF400CFD15F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				667EB127147AADF400CFD15F /* MROGeometry */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		667EB127147AADF400CFD15F /* MROGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				667EB128147AADF400CFD15F /* .git */,
+				667EB14E147AADF400CFD15F /* CGPathReader.h */,
+				667EB14F147AADF400CFD15F /* CGPathReader.m */,
+				667EB150147AADF400CFD15F /* CGPathWriter.c */,
+				667EB151147AADF400CFD15F /* CGPathWriter.h */,
+				667EB152147AADF400CFD15F /* CGPathWriterTC.m */,
+				667EB153147AADF400CFD15F /* Makefile */,
+				667EB154147AADF400CFD15F /* MROCGPointMath.c */,
+				667EB155147AADF400CFD15F /* MROCGPointMath.h */,
+				667EB156147AADF400CFD15F /* NSCoder_MROCGPath.h */,
+				667EB157147AADF400CFD15F /* NSCoder_MROCGPath.m */,
+				667EB158147AADF400CFD15F /* PathBuilder.h */,
+				667EB159147AADF400CFD15F /* PathBuilder.m */,
+				667EB15A147AADF400CFD15F /* PathParser.h */,
+				667EB15B147AADF400CFD15F /* PathParser.m */,
+				667EB15C147AADF400CFD15F /* PathParser.rl */,
+				667EB15D147AADF400CFD15F /* RagelParser.h */,
+				667EB15E147AADF400CFD15F /* RagelParser.m */,
+				667EB15F147AADF400CFD15F /* README.markdown */,
+				667EB160147AADF400CFD15F /* TrafoParser.h */,
+				667EB161147AADF400CFD15F /* TrafoParser.m */,
+				667EB162147AADF400CFD15F /* TrafoParser.rl */,
+			);
+			path = MROGeometry;
+			sourceTree = "<group>";
+		};
+		667EB128147AADF400CFD15F /* .git */ = {
+			isa = PBXGroup;
+			children = (
+				667EB129147AADF400CFD15F /* branches */,
+				667EB12A147AADF400CFD15F /* config */,
+				667EB12B147AADF400CFD15F /* description */,
+				667EB12C147AADF400CFD15F /* FETCH_HEAD */,
+				667EB12D147AADF400CFD15F /* HEAD */,
+				667EB12E147AADF400CFD15F /* hooks */,
+				667EB139147AADF400CFD15F /* index */,
+				667EB13A147AADF400CFD15F /* info */,
+				667EB13C147AADF400CFD15F /* logs */,
+				667EB141147AADF400CFD15F /* objects */,
+				667EB146147AADF400CFD15F /* packed-refs */,
+				667EB147147AADF400CFD15F /* refs */,
+			);
+			path = .git;
+			sourceTree = "<group>";
+		};
+		667EB129147AADF400CFD15F /* branches */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = branches;
+			sourceTree = "<group>";
+		};
+		667EB12E147AADF400CFD15F /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+				667EB12F147AADF400CFD15F /* applypatch-msg.sample */,
+				667EB130147AADF400CFD15F /* commit-msg.sample */,
+				667EB131147AADF400CFD15F /* post-commit.sample */,
+				667EB132147AADF400CFD15F /* post-receive.sample */,
+				667EB133147AADF400CFD15F /* post-update.sample */,
+				667EB134147AADF400CFD15F /* pre-applypatch.sample */,
+				667EB135147AADF400CFD15F /* pre-commit.sample */,
+				667EB136147AADF400CFD15F /* pre-rebase.sample */,
+				667EB137147AADF400CFD15F /* prepare-commit-msg.sample */,
+				667EB138147AADF400CFD15F /* update.sample */,
+			);
+			path = hooks;
+			sourceTree = "<group>";
+		};
+		667EB13A147AADF400CFD15F /* info */ = {
+			isa = PBXGroup;
+			children = (
+				667EB13B147AADF400CFD15F /* exclude */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		667EB13C147AADF400CFD15F /* logs */ = {
+			isa = PBXGroup;
+			children = (
+				667EB13D147AADF400CFD15F /* HEAD */,
+				667EB13E147AADF400CFD15F /* refs */,
+			);
+			path = logs;
+			sourceTree = "<group>";
+		};
+		667EB13E147AADF400CFD15F /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				667EB13F147AADF400CFD15F /* heads */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		667EB13F147AADF400CFD15F /* heads */ = {
+			isa = PBXGroup;
+			children = (
+				667EB140147AADF400CFD15F /* master */,
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		667EB141147AADF400CFD15F /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				667EB142147AADF400CFD15F /* info */,
+				667EB143147AADF400CFD15F /* pack */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		667EB142147AADF400CFD15F /* info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		667EB143147AADF400CFD15F /* pack */ = {
+			isa = PBXGroup;
+			children = (
+				667EB144147AADF400CFD15F /* pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.idx */,
+				667EB145147AADF400CFD15F /* pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.pack */,
+			);
+			path = pack;
+			sourceTree = "<group>";
+		};
+		667EB147147AADF400CFD15F /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				667EB148147AADF400CFD15F /* heads */,
+				667EB14A147AADF400CFD15F /* remotes */,
+				667EB14D147AADF400CFD15F /* tags */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		667EB148147AADF400CFD15F /* heads */ = {
+			isa = PBXGroup;
+			children = (
+				667EB149147AADF400CFD15F /* master */,
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		667EB14A147AADF400CFD15F /* remotes */ = {
+			isa = PBXGroup;
+			children = (
+				667EB14B147AADF400CFD15F /* origin */,
+			);
+			path = remotes;
+			sourceTree = "<group>";
+		};
+		667EB14B147AADF400CFD15F /* origin */ = {
+			isa = PBXGroup;
+			children = (
+				667EB14C147AADF400CFD15F /* HEAD */,
+			);
+			path = origin;
+			sourceTree = "<group>";
+		};
+		667EB14D147AADF400CFD15F /* tags */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tags;
+			sourceTree = "<group>";
+		};
 		F1021697137DDCA4008D1E1F /* GraphicFragments */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,31 +437,6 @@
 				F1021699137DDCDD008D1E1F /* TextFrag.m */,
 			);
 			name = GraphicFragments;
-			sourceTree = "<group>";
-		};
-		F1297E4913652C0E00DB3E1C /* MROGeometry */ = {
-			isa = PBXGroup;
-			children = (
-				F13A9FFC1366516000CDA583 /* CGPathReader.h */,
-				F13A9FFD1366516000CDA583 /* CGPathReader.m */,
-				F13A9FFE1366516000CDA583 /* CGPathWriter.c */,
-				F13A9FFF1366516000CDA583 /* CGPathWriter.h */,
-				F13AA0001366516000CDA583 /* MROCGPointMath.c */,
-				F13AA0011366516000CDA583 /* MROCGPointMath.h */,
-				F13AA0021366516000CDA583 /* NSCoder_MROCGPath.h */,
-				F13AA0031366516000CDA583 /* NSCoder_MROCGPath.m */,
-				F13AA0041366516000CDA583 /* PathBuilder.h */,
-				F13AA0051366516000CDA583 /* PathBuilder.m */,
-				F13AA0061366516000CDA583 /* PathParser.h */,
-				F13AA0071366516000CDA583 /* PathParser.m */,
-				F13AA0081366516000CDA583 /* PathParser.rl */,
-				F13AA0091366516000CDA583 /* RagelParser.h */,
-				F13AA00A1366516000CDA583 /* RagelParser.m */,
-				F13AA00B1366516000CDA583 /* TrafoParser.h */,
-				F13AA00C1366516000CDA583 /* TrafoParser.m */,
-				F13AA00D1366516000CDA583 /* TrafoParser.rl */,
-			);
-			name = MROGeometry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,15 +489,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				F1FE97721269533000F6D66F /* tiger.svg in Resources */,
-				F10D76D8126D51CC00D5CA7A /* text.svg in Resources */,
-				F10D76DA126D51D700D5CA7A /* skull.svg in Resources */,
-				F1E1603E132B0AA800836330 /* drawing.svg in Resources */,
-				F13AA0141366516000CDA583 /* PathParser.rl in Resources */,
-				F13AA0171366516000CDA583 /* TrafoParser.rl in Resources */,
-				F102788C13F5D1C400D8C56B /* map1.svg in Resources */,
-				F102788D13F5D1C400D8C56B /* map0.svg in Resources */,
 				F130C03D13F95A08008815EB /* maps.plist in Resources */,
+				667EB120147AADDC00CFD15F /* drawing.svg in Resources */,
+				667EB121147AADDC00CFD15F /* map0.svg in Resources */,
+				667EB122147AADDC00CFD15F /* map1.svg in Resources */,
+				667EB123147AADDC00CFD15F /* skull.svg in Resources */,
+				667EB124147AADDC00CFD15F /* text.svg in Resources */,
+				667EB125147AADDC00CFD15F /* tiger.svg in Resources */,
+				667EB163147AADF400CFD15F /* config in Resources */,
+				667EB164147AADF400CFD15F /* description in Resources */,
+				667EB165147AADF400CFD15F /* FETCH_HEAD in Resources */,
+				667EB166147AADF400CFD15F /* HEAD in Resources */,
+				667EB167147AADF400CFD15F /* applypatch-msg.sample in Resources */,
+				667EB168147AADF400CFD15F /* commit-msg.sample in Resources */,
+				667EB169147AADF400CFD15F /* post-commit.sample in Resources */,
+				667EB16A147AADF400CFD15F /* post-receive.sample in Resources */,
+				667EB16B147AADF400CFD15F /* post-update.sample in Resources */,
+				667EB16C147AADF400CFD15F /* pre-applypatch.sample in Resources */,
+				667EB16D147AADF400CFD15F /* pre-commit.sample in Resources */,
+				667EB16E147AADF400CFD15F /* pre-rebase.sample in Resources */,
+				667EB16F147AADF400CFD15F /* prepare-commit-msg.sample in Resources */,
+				667EB170147AADF400CFD15F /* update.sample in Resources */,
+				667EB171147AADF400CFD15F /* index in Resources */,
+				667EB172147AADF400CFD15F /* exclude in Resources */,
+				667EB173147AADF400CFD15F /* HEAD in Resources */,
+				667EB174147AADF400CFD15F /* master in Resources */,
+				667EB175147AADF400CFD15F /* pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.idx in Resources */,
+				667EB176147AADF400CFD15F /* pack-e86fe81fe7c3954fdabb63335d162aa0a20c252c.pack in Resources */,
+				667EB177147AADF400CFD15F /* packed-refs in Resources */,
+				667EB178147AADF400CFD15F /* master in Resources */,
+				667EB179147AADF400CFD15F /* HEAD in Resources */,
+				667EB182147AADF400CFD15F /* PathParser.rl in Resources */,
+				667EB184147AADF400CFD15F /* README.markdown in Resources */,
+				667EB186147AADF400CFD15F /* TrafoParser.rl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,23 +534,22 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SVGRendererTouchAppDelegate.m in Sources */,
-				F1FE97681269523100F6D66F /* SVGRenderViewTouch.m in Sources */,
-				F1FE976D1269524F00F6D66F /* NSData+Base64.m in Sources */,
-				F1FE976E1269524F00F6D66F /* SVGQuartzRenderer.m in Sources */,
 				F10A772A133B7C2500C8F3D4 /* SVGStyle.m in Sources */,
 				F102760A13452147004F7796 /* QuadTreeNode.m in Sources */,
 				F102760D13452161004F7796 /* Sprite.m in Sources */,
 				F12576A3135DC4DB00D6249F /* GraphicFrag.m in Sources */,
 				F12576A6135DC5FB00D6249F /* PathFrag.m in Sources */,
-				F13AA00E1366516000CDA583 /* CGPathReader.m in Sources */,
-				F13AA00F1366516000CDA583 /* CGPathWriter.c in Sources */,
-				F13AA0101366516000CDA583 /* MROCGPointMath.c in Sources */,
-				F13AA0111366516000CDA583 /* NSCoder_MROCGPath.m in Sources */,
-				F13AA0121366516000CDA583 /* PathBuilder.m in Sources */,
-				F13AA0131366516000CDA583 /* PathParser.m in Sources */,
-				F13AA0151366516000CDA583 /* RagelParser.m in Sources */,
-				F13AA0161366516000CDA583 /* TrafoParser.m in Sources */,
 				F102169A137DDCDD008D1E1F /* TextFrag.m in Sources */,
+				667EB17A147AADF400CFD15F /* CGPathReader.m in Sources */,
+				667EB17B147AADF400CFD15F /* CGPathWriter.c in Sources */,
+				667EB17C147AADF400CFD15F /* CGPathWriterTC.m in Sources */,
+				667EB17D147AADF400CFD15F /* Makefile in Sources */,
+				667EB17E147AADF400CFD15F /* MROCGPointMath.c in Sources */,
+				667EB17F147AADF400CFD15F /* NSCoder_MROCGPath.m in Sources */,
+				667EB180147AADF400CFD15F /* PathBuilder.m in Sources */,
+				667EB181147AADF400CFD15F /* PathParser.m in Sources */,
+				667EB183147AADF400CFD15F /* RagelParser.m in Sources */,
+				667EB185147AADF400CFD15F /* TrafoParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
